@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Kanit:wght@500&family=Pacifico&family=Rubik:wght@500&family=Teko:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #FFFFFFFF;
+    background: #2D2D2D;
+}
+
+html {
+    font-family: Kanit ,sans-serif ;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+     font: teko;
+     font-size: 2rem;
+     font-weight: 500;
+     text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #D6D6D6;
+}
+
+.github {
+    color: #FFF2E7;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+    background: #353535;
+}
+
+.hero {
+    background:#353535;
+
+    max-width: 1120px;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+
+    padding: 0rem 2rem;
+    margin: auto;
+
+    overflow: clip;
+}
+
+.hero-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.destaque {
+    font-family: rubik;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.laranja {
+    color: #FF8426;
+}
+
+h1 {
+    font-family: jost;
+    font-size: 3.5rem ;
+    font-style: normal;
+    font-weight: 800;
+}
+
+hr {
+    border-color: #FF8426;
+}
+
+.subtitulo {
+    color:  #FFB07C;
+    font-family: kanit;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hero-imagens-container{
+    max-width: 45%;
+    column-count: 2;
+    column-gap: 1rem;
+    margin: -1rem;
+}
+
+.hero-imagens-container > figure > img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.botao-1 {
+    width:50%;
+    max-width: 1120px;
+    margin: auto;
+    transform: translate(" 0 ,  50%");
+}
+
+button {
+    border: 9000px;
+    background: #FF8426;
+}
+
+.búrgao {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width:1120px ;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+
+.podrao {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.classe1 {
+    font-family: jost;
+    font-size: 2rem;
+
+    font-weight: 700;
+    color: #FF9400;
+}
+
+.classe2 {
+    font-family: jost;
+    font-size: 1.563rem;
+
+    font-weight: 700;
+    color: #FFA775;
+}
+
+.king {
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.kigdom {
+    background: #262626;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem ;
+}
+
+.empire {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.Superpower {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.classe3 {
+    color: #FFB600;
+    font-family: teko;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.classe4 {
+    color: #FFFFFF;
+    font-family: jost;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.classe5 {
+    color: #FFFFFF;
+    font-family: jost;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.footer-copy {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5;
+    background: #353535;
+}
+
+.autor {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #353535;
+    font-family: pacifico;
+}
