@@ -11,6 +11,29 @@ body {
     background: #2D2D2D;
 }
 
+.logo {
+    font: teko;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.menu {
+   display: flex;
+   flex-direction: row;
+   gap: 1.5rem;
+   color: #D6D6D6;
+}
+
+.github {
+   color: #FFF2E7;
+   font-weight: 600;
+}
+
+.cinza {
+    color: #D6D6D6;
+}
+
 html {
     font-family: Kanit ,sans-serif ;
     font-weight: 500;
@@ -26,32 +49,13 @@ ul{
 
 nav {
     max-width: 1120px;
-    margin: auto;
+    margin: auto 711.5px;
     padding: 1.5rem 10rem;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo {
-     font: teko;
-     font-size: 2rem;
-     font-weight: 500;
-     text-transform: uppercase;
-}
-
-.menu {
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-    color: #D6D6D6;
-}
-
-.github {
-    color: #FFF2E7;
-    font-weight: 600;
 }
 
 main {
@@ -126,18 +130,6 @@ hr {
 .hero-imagens-container > figure > img {
     width: 100%;
     border-radius: 0.5rem;
-}
-
-.botao-1 {
-    width:50%;
-    max-width: 1120px;
-    margin: auto;
-    transform: translate(" 0 ,  50%");
-}
-
-button {
-    border: 9000px;
-    background: #FF8426;
 }
 
 .búrgao {
@@ -223,12 +215,18 @@ button {
     font-weight: 200;
 }
 
+.fonte1 {
+    font-family: jost;
+    color: #FFFFFFFF;
+    font-size: 10px;
+}
+
 .footer-copy {
     padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.5;
+    gap: 0.5rem;
     background: #353535;
 }
 
@@ -241,6 +239,3 @@ button {
     font-family: pacifico;
 }
 
-.cinza {
-    color: #D6D6D6;
-}
